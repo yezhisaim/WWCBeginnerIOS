@@ -1,6 +1,7 @@
 
 
 Instagram Profile Page clone
+
 Cocoapods used: SwiftyJSON, Alamofire
 
 Flow of Steps
