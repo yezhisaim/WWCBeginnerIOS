@@ -1,0 +1,3 @@
+Added Cocoapods
+- SwiftyJSON
+- Alamofire
