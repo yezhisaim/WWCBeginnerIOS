@@ -13,7 +13,7 @@
  
  pod init \#Close and reopen terminal if errors arise
  
- Open the Xcode Podfile (Add “pod 'AFNetworking', '~> 2.6’”. Refer to the 'How to add Cocoapods' session at the end of file)
+ Open the Xcode Podfile (Add “pod 'AFNetworking', '~> 2.6’”. Refer to the 'Sample Podfile' section at the end of file)
  
 It’s finally time to add your first dependency using CocoaPods!
 
@@ -23,9 +23,7 @@ Now close pod file and execute below command on terminal to install relevant coc
  Now close your xcode project and open <project_name>.xcworkspace Xcode project file.
 
 
-# How to add Cocoapods
-
-\# Podfile
+\# Sample Podfile
 
 \# This tells CocoaPods we want to target iOS versions 8.0 and above.
 platform :ios, '8.0'
