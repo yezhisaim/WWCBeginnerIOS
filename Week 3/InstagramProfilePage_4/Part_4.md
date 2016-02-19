@@ -1,18 +1,25 @@
-How to get an Instagram Access_token?
+How to get an Instagram Access_token? 
+
+[Warning: Make sure there are no trailing characters in your strings. For example, If you copy this to Mac's default Notes application, you may experience problems like trailing characters]
 
 Step 1- Click Register your Application on https://www.instagram.com/developer/
+
 Step 2- Click Register a new client button to register a new client
-Step 3- Enter the required details and you should get the following details for your new client:
+
+Step 3- Enter the required details(Always use https:// and not http:// in your website and redirect URI's) and you should get the following details for your new client:
 
 Example:
 CLIENT ID	155048626b774a348343feff8972ce27
+
 CLIENT SECRET	6709dd945764415f918dc853498180b4
+
 WEBSITE URL	https://www.google.com
+
 REDIRECT URI	https://www.google.com
 
 Step 4- Reference documentation(Server Side Flow): https://www.instagram.com/developer/authentication/
 
-Enter the CLIENT ID and REDIRECT URI from above to the following statement
+Enter the CLIENT ID and REDIRECT URI from above to the following statement: 
  https://api.instagram.com/oauth/authorize/?client_id=CLIENT-ID&redirect_uri=REDIRECT-URI&response_type=code
 
 Example: https://api.instagram.com/oauth/authorize/?client_id=155048626b774a348343feff8972ce27&redirect_uri=https://www.google.com&response_type=code
@@ -28,19 +35,29 @@ https://www.google.com/?code=a791e087807444eb8d0a45501cce16d1
 Step 7- Use this code to request your access token, using the following curl command:
 
 curl -F 'client_id=CLIENT_ID' \
+
   -F 'client_secret=CLIENT_SECRET' \
+  
   -F 'grant_type=authorization_code' \
+  
   -F 'redirect_uri=AUTHORIZATION_REDIRECT_URI' \
+  
   -F 'code=CODE' \
+  
   https://api.instagram.com/oauth/access_token
 
 Example:
 
 curl -F 'client_id=155048626b774a348343feff8972ce27' \
+
   -F 'client_secret=6709dd945764415f918dc853498180b4' \
+  
   -F 'grant_type=authorization_code' \
+  
   -F 'redirect_uri=AUTHORIZATION_REDIRECT_URI' \
+  
   -F 'code=a791e087807444eb8d0a45501cce16d1' \
+  
   https://api.instagram.com/oauth/access_token
 
 
