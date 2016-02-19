@@ -23,7 +23,7 @@ Now close pod file and execute below command on terminal to install relevant coc
  Now close your xcode project and open <project_name>.xcworkspace Xcode project file.
 
 
-\# Sample Podfile
+# Sample Podfile
 
 \# This tells CocoaPods we want to target iOS versions 8.0 and above.
 platform :ios, '8.0'
