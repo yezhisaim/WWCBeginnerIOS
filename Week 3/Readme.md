@@ -1,6 +1,6 @@
 
 
-Instagram Profile Page clone [Works on Iphone 5 Simulator only. Built using Xcode 7.2.1]
+Instagram Profile Page clone [Works on Iphone 5 Simulator only. Built using Xcode Version 7.2.1]
 
 Cocoapods used: SwiftyJSON, Alamofire
 
