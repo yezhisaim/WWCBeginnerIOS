@@ -1,12 +1,18 @@
-How to get an Instagram Access_token? 
+
+## Here's Two Instagram API endpoints that we will use in the app:
+
+* https://api.instagram.com/v1/users/self/?access_token=ACCESS_TOKEN - Get information about the owner of the access_token.
+* https://api.instagram.com/v1/users/self/media/recent/?access_token=ACCESS_TOKEN - Get the most recent media published by the owner of the access_token.
+
+## How to get an Instagram ACCESS_TOKEN? 
 
 [Warning: Make sure there are no trailing characters in your strings. For example, If you copy this to Mac's default Notes application, you may experience problems like trailing characters]
 
-Step 1- Click Register your Application on https://www.instagram.com/developer/
+Step 1- Click Register your Application on https://www.instagram.com/developer/ 
 
-Step 2- Click Register a new client button to register a new client
+Step 2- Click Register a new client button to register a new client [Note: Although this example app is called InstagramProfilePageClone, please create a client app on Instagram according to the new Instagram guidelines i.e without Insta/gram in the name]
 
-Step 3- Enter the required details(Always use https:// and not http:// in your website and redirect URI's) and you should get the following details for your new client:
+Step 3- Enter the required details[Note: Always use https:// and not http:// in your website and redirect URI's] and you should get the following details for your new client:
 
 Example:
 CLIENT ID	155048626b774a348343feff8972ce27
@@ -66,3 +72,4 @@ Step 8- Enter the above curl command in a terminal window. The result should be 
 
 Step 9 - Congratulations! You've received your Access_token, that you can use to make requests through your app.
   "access_token":"30523224.7dff092.6e25bfd2801243acbbbe5330b84ad604"
+ 
