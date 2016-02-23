@@ -1,5 +1,5 @@
 
-## Here's Two Instagram API endpoints that we will use in the app:
+## Here's two Instagram API endpoints that we will use in the app:
 
 * https://api.instagram.com/v1/users/self/?access_token=ACCESS_TOKEN - Get information about the owner of the access_token.
 * https://api.instagram.com/v1/users/self/media/recent/?access_token=ACCESS_TOKEN - Get the most recent media published by the owner of the access_token.
