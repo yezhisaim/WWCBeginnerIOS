@@ -2,7 +2,7 @@ Instagram Profile Page clone [Works on Iphone 5 Simulator only. Built using Xcod
 
 #Common Errors
 
-* <i>1. ERROR:</i><br />
+* <i>ERROR:</i><br />
 Cocoapods install [Ruby updates]:<br />
 Fetching: activesupport-5.0.0.beta3.gem (100%)<br />
 ERROR:  Error installing cocoapods:<br />
@@ -15,7 +15,7 @@ ruby 2.0.0p481 (2014-05-08 revision 45883) [x86_64-darwin13.1.0]<br />
   <i>SOLUTION:</i>:
 https://shellzero.wordpress.com/tag/how-to-update-ruby-2-0-to-the-latest-version-on-mac-os-x-yosemite/
 
-* <i>2. ERROR:</i>
+* <i>ERROR:</i>
 Creating shallow clone of spec repo `master` from `https://github.com/CocoaPods/Specs.git`
 [!] Unable to add a source with url `https://github.com/CocoaPods/Specs.git` named `master`.
 You can try adding it manually in `~/.cocoapods/repos` or via `pod repo add`.
