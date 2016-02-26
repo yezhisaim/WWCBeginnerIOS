@@ -70,4 +70,6 @@ More options to add to Podfile: https://guides.cocoapods.org/syntax/podfile.html
 NOTE: “No such Module” error? - Product->Clean and Product->Build
 
 
+
+FINAL APP DEMO:<br/>
 ![Demo](https://raw.githubusercontent.com/yezhisaim/WWCBeginnerIOS/dc7a36f6c0d426dc15a642abb3f15565d1e7453f/Week%203/instagram-profile-view-gif.gif)
