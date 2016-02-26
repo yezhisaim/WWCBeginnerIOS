@@ -2,7 +2,7 @@ Instagram Profile Page clone [Works on Iphone 5 Simulator only. Built using Xcod
 
 #Common Errors
 
-* 2. <i>ERROR: </i><br />
+* 1. <i>ERROR: </i><br />
 Cocoapods install [Ruby updates]:<br />
 Fetching: activesupport-5.0.0.beta3.gem (100%)<br />
 ERROR:  Error installing cocoapods:<br />
