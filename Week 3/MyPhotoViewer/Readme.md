@@ -65,6 +65,11 @@ target 'InstagramFeed' do
 pod 'AFNetworking', '~> 2.6'
 end
 
+After cocoapods is installed, the directory structure is similar to the one below. Restart the project by double-clicking on the .xcworkspace file.
+
+![Directory_structure.png](https://raw.githubusercontent.com/yezhisaim/WWCBeginnerIOS/master/Week%203/MyPhotoViewer/Directory.structure.png)
+
+
 More options to add to Podfile: https://guides.cocoapods.org/syntax/podfile.html
 
 NOTE: “No such Module” error? - Product->Clean and Product->Build
