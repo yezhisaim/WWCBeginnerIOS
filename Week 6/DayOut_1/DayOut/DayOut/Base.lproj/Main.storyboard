@@ -17,6 +17,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DayOut" translatesAutoresizingMaskIntoConstraints="NO" id="cNX-e8-lox">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ranchoBackground" translatesAutoresizingMaskIntoConstraints="NO" id="c0H-QX-dd7">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background-swipe" translatesAutoresizingMaskIntoConstraints="NO" id="F65-aJ-3Mb">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
                             </imageView>
@@ -29,7 +35,7 @@
                                     <tabBarItem title="" image="profile-inactive" id="Wk5-Cs-nim"/>
                                 </items>
                             </tabBar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="card2" translatesAutoresizingMaskIntoConstraints="NO" id="Zcv-O4-6Fr">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ranchoBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Zcv-O4-6Fr">
                                 <rect key="frame" x="39" y="160" width="337" height="335"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="card1" translatesAutoresizingMaskIntoConstraints="NO" id="Hgw-O1-A04">
@@ -65,13 +71,14 @@
         </scene>
     </scenes>
     <resources>
+        <image name="DayOut" width="375" height="667"/>
         <image name="background-swipe" width="375" height="616"/>
         <image name="card1" width="337" height="335"/>
-        <image name="card2" width="310" height="289"/>
         <image name="close-o@1x" width="50" height="50"/>
         <image name="heart" width="50" height="50"/>
         <image name="home" width="26" height="26"/>
         <image name="profile-inactive" width="29" height="29"/>
+        <image name="ranchoBackground" width="375" height="620"/>
         <image name="swipe-active" width="32" height="30"/>
         <image name="swipe-inactive" width="32" height="30"/>
     </resources>
